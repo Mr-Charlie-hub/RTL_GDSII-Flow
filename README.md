@@ -124,7 +124,7 @@ RTL (Verilog)
 - `report_cell` and `report_timing` commands were used to verify cell usage and check that timing slack was met
 - The synthesized netlist confirmed that all timing constraints were satisfied
 
-📸 *See:* [`screenshots/fig2_dc_netlist.md`](../documents/fig2_dc_netlist.md)
+📸 *See:* [`screenshots/fig2_dc_netlist.md`](documents/fig2_dc_netlist.md)
 
 ---
 
@@ -145,7 +145,7 @@ The design was analysed across three industry-standard PVT corners using both `c
 - `Compile Ultra` mode reduced negative slack at the SS corner versus standard `Compile`, at the cost of a slight increase in cell count and area
 - Detailed numerical results are presented in [Section 5 — Results and Analysis](#5-results-and-analysis)
 
-📸 *See:* [`screenshots/fig3_tt_corner.md`](../screenshots/fig3_tt_corner.md) | [`screenshots/fig4_ss_corner.md`](../screenshots/fig4_ss_corner.md) | [`screenshots/fig5_ff_corner.md`](../screenshots/fig5_ff_corner.md)
+📸 *See:* [`screenshots/fig3_tt_corner.md`](documents/fig3_tt_corner.md) | [`screenshots/fig4_ss_corner.md`](documents/fig4_ss_corner.md) | [`screenshots/fig5_ff_corner.md`](documents/fig5_ff_corner.md)
 
 ---
 
@@ -158,7 +158,7 @@ The design was analysed across three industry-standard PVT corners using both `c
 - I/O pads were placed according to design requirements
 - The floorplan established the physical canvas for all subsequent placement and routing steps
 
-📸 *See:* [`screenshots/fig7_floorplan.md`](../screenshots/fig7_floorplan.md)
+📸 *See:* [`screenshots/fig7_floorplan.md`](documents/fig7_floorplan.md)
 
 ---
 
@@ -170,7 +170,7 @@ The design was analysed across three industry-standard PVT corners using both `c
 - The placer optimized cell positions to minimize wirelength and routing congestion
 - Power and ground (PG) connectivity was verified post-placement to confirm no connectivity issues
 
-📸 *See:* [`screenshots/fig9_placement.md`](../screenshots/fig9_placement.md)
+📸 *See:* [`screenshots/fig9_placement.md`](documents/fig9_placement.md)
 
 ---
 
@@ -186,7 +186,7 @@ Three-stage power distribution network (PDN) was constructed:
 
 This hierarchy ensures stable power delivery across the entire chip during operation.
 
-📸 *See:* [`screenshots/fig8_power_planning.md`](../screenshots/fig8_power_planning.md)
+📸 *See:* [`screenshots/fig8_power_planning.md`](documents/fig8_power_planning.md)
 
 ---
 
@@ -199,7 +199,7 @@ This hierarchy ensures stable power delivery across the entire chip during opera
 - Clock paths were balanced to satisfy pre-CTS timing constraints
 - Power consumption of the clock network was also optimized during this step
 
-📸 *See:* [`screenshots/fig11_cts.md`](../screenshots/fig11_cts.md)
+📸 *See:* [`screenshots/fig11_cts.md`](documents/fig11_cts.md)
 
 ---
 
@@ -212,7 +212,7 @@ This hierarchy ensures stable power delivery across the entire chip during opera
 - The router ensured compliance with **DRC (Design Rule Check)** and **LVS (Layout vs. Schematic)** rules
 - The result was a fully connected, physically verified chip layout ready for tape-out
 
-📸 *See:* [`screenshots/fig12_routing.md`](../screenshots/fig12_routing.md)
+📸 *See:* [`screenshots/fig12_routing.md`](documents/fig12_routing.md)
 
 ---
 
@@ -224,7 +224,7 @@ This hierarchy ensures stable power delivery across the entire chip during opera
 - The report confirmed **no setup violations** and **no hold violations** in the final routed netlist
 - This marks successful **timing closure** — the design is fully timing-signed-off and ready for downstream physical verification steps
 
-📸 *See:* [`screenshots/fig14_timing_signoff.md`](../screenshots/fig14_timing_signoff.md)
+📸 *See:* [`screenshots/fig14_timing_signoff.md`](documents/fig14_timing_signoff.md)
 
 ---
 
@@ -235,7 +235,7 @@ This hierarchy ensures stable power delivery across the entire chip during opera
 - The final routed layout was exported in **GDSII format** — the industry-standard binary format used to transfer chip layout data to semiconductor fabrication facilities (fabs)
 - The GDSII file represents the complete, manufacturable layout of the 4-bit Full Adder
 
-📸 *See:* [`screenshots/fig13_gdsii.md`](../screenshots/fig13_gdsii.md)
+📸 *See:* [`screenshots/fig13_gdsii.md`](documents/fig13_gdsii.md)
 
 ---
 
