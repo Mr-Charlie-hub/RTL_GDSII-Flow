@@ -5,8 +5,6 @@
 > **Organizer:** VLSI Expert in collaboration with Synopsys  
 > **Duration:** 10 Days  
 > **Submitted by:** Rohith D  
-> **Designation:** B.E in Electronics and Telecommunication Engineering  
-> **College:** R V College of Engineering, Bangalore  
 > **Date:** 23 October 2025  
 
 ---
