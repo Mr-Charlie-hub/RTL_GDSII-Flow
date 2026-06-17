@@ -5,4 +5,4 @@
 **Tool:** Synopsys Design Compiler (DC)
 **Stage:** Logic Synthesis
 
-![waveform](screenshots/../fig2_dc_netlist.jpeg)
+![waveform](../screenshots/fig2_dc_netlist.jpeg)
