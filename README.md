@@ -20,8 +20,8 @@ The project demonstrates how synthesizable RTL is transformed into physical desi
 - GDSII generation and signoff collateral export
 
 See detailed overview in:
-- `/home/runner/work/RTL_GDSII-Flow/RTL_GDSII-Flow/docs/project_overview.md`
-- `/home/runner/work/RTL_GDSII-Flow/RTL_GDSII-Flow/docs/design_flow.md`
+- `docs/project_overview.md`
+- `docs/design_flow.md`
 
 ---
 
@@ -89,9 +89,9 @@ RTL_GDSII-Flow/
 
 ## Synopsys Script Entry Points
 
-- DC: `/home/runner/work/RTL_GDSII-Flow/RTL_GDSII-Flow/scripts/dc/run_dc.tcl`
-- ICC2: `/home/runner/work/RTL_GDSII-Flow/RTL_GDSII-Flow/scripts/icc2/run_icc2.tcl`
-- PrimeTime: `/home/runner/work/RTL_GDSII-Flow/RTL_GDSII-Flow/scripts/pt/run_pt.tcl`
+- DC: `scripts/dc/run_dc.tcl`
+- ICC2: `scripts/icc2/run_icc2.tcl`
+- PrimeTime: `scripts/pt/run_pt.tcl`
 
 Each script includes inline comments and explicit **[USER TO UPDATE]** fields for environment-specific values.
 
