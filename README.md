@@ -124,7 +124,7 @@ RTL (Verilog)
 - `report_cell` and `report_timing` commands were used to verify cell usage and check that timing slack was met
 - The synthesized netlist confirmed that all timing constraints were satisfied
 
-📸 *See:* [`screenshots/fig2_dc_netlist.md`](../screenshots/fig2_dc_netlist.md)
+📸 *See:* [`screenshots/fig2_dc_netlist.md`](../documents/fig2_dc_netlist.md)
 
 ---
 
