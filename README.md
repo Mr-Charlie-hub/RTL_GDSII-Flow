@@ -3,7 +3,7 @@
 
 > **Workshop:** RTL2GDSII Flow Using Synopsys Tools  
 > **Organizer:** VLSI Expert in collaboration with Synopsys  
-> **Duration:** 3 Days  
+> **Duration:** 10 Days  
 > **Submitted by:** Rohith D  
 > **Designation:** B.E in Electronics and Telecommunication Engineering  
 > **College:** R V College of Engineering, Bangalore  
@@ -281,14 +281,12 @@ rtl2gdsii-4bit-fulladder/
 │
 ├── README.md                        ← This file — complete project documentation
 │
-├── docs/
+├── Files/
 │   ├── design_flow_overview.md      ← Detailed RTL-to-GDSII flow description
 │   ├── pvt_corner_analysis.md       ← Multi-corner timing analysis explanation
 │   ├── physical_design_stages.md    ← ICC2 physical design stage-by-stage notes
-│   ├── interview_qa.md              ← Interview Q&A based on this project
-│   └── linkedin_description.md     ← LinkedIn project description
 │
-├── reports/
+├── results/
 │   ├── synthesis_results_table.md   ← Multi-corner synthesis results (Table I)
 │   └── timing_signoff_summary.md    ← Post-routing timing sign-off summary
 │
@@ -309,10 +307,8 @@ rtl2gdsii-4bit-fulladder/
 │   └── fig14_timing_signoff.md      ← Caption: Post-routing timing report
 │
 ├── certificate/
-│   └── README.md                    ← Placeholder for workshop certificate
-│
-└── resume/
-    └── resume_bullets.md            ← Resume bullet points extracted from the project
+│   └── certificate.md                    ← Placeholder for workshop certificate
+
 ```
 
 ---
