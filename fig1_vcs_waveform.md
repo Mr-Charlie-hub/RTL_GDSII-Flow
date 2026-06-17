@@ -5,4 +5,4 @@
 **Tool:** Synopsys VCS
 **Stage:** RTL Functional Simulation
 
-> *![alt text](fig1_vcs_waveform-1.jpeg)*
+>![Functional Verification Waveform](screenshots/fig1_vcs_waveform-1.jpeg)
