@@ -110,7 +110,7 @@ RTL (Verilog)
 - Waveforms were inspected to confirm correct functional behaviour of `SUM` and `C_out` outputs before proceeding to synthesis
 - This step ensures the RTL is logically correct prior to any physical implementation work
 
-📸 *See:* [`screenshots/fig1_vcs_waveform.md`](../documents/fig1_vcs_waveform.md)
+📸 *See:* [`screenshots/fig1_vcs_waveform.md`](documents/fig1_vcs_waveform.md)
 
 ---
 
