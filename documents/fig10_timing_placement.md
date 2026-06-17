@@ -5,4 +5,4 @@
 **Tool:** Synopsys IC Compiler II (ICC2)  
 **Stage:** Post-Placement Static Timing Analysis  
 
-![Timming Placement](screenshots/fig10_timing_placement.jpeg)
+![Timming Placement](../screenshots/fig10_timing_placement.jpeg)
