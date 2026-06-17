@@ -7,6 +7,6 @@ This directory is reserved for the workshop completion certificate issued by VLS
 **Participant:** Rohith D  
 **Date:** October 2025  
 
-[Certificate](screenshots/RTL2GDS.pdf)
+![Certificate](../screenshots/RTL2GDS.pdf)
 
 
